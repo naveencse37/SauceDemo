@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-highest-price-item-to-cart;select-and-add-the-most-expensive-item-to-the-cart",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Select and add the most expensive item to the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the SauceDemo website",
+            "match": {
+              "location": "step-definitions\\saucedemo.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2327116600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I log in with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "step-definitions\\saucedemo.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121659999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select the highest price item",
+            "match": {
+              "location": "step-definitions\\saucedemo.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82669400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the item added to the cart",
+            "match": {
+              "location": "step-definitions\\saucedemo.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310770300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-highest-price-item-to-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add highest price item to cart",
+    "tags": [],
+    "uri": "features\\saucedemo.feature"
+  }
+]
